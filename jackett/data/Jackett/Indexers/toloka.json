@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://toloka.to/"
+  },
+  {
+    "id": "showfreeleechonly",
+    "type": "inputbool",
+    "name": "Show freeleech only",
+    "value": false
+  },
+  {
+    "id": "stripcyrillicletters",
+    "type": "inputbool",
+    "name": "Strip Cyrillic Letters",
+    "value": true
+  },
+  {
+    "id": "username",
+    "type": "inputstring",
+    "name": "Username",
+    "value": "mabab"
+  },
+  {
+    "id": "password",
+    "type": "inputstring",
+    "name": "Password",
+    "value": "CfDJ8CEtwUnIvjBNg_-_poyK0XjU60ajVQEv5tBoKMH92pUhSmqxKJWSGLRhRx0tD8JeXkvMkRZg-OBjLcwxsKousPXxB1K6UHx-iYe8JzvqjUkO7VzsgBkD249B3Ch3EG9QHQ"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "toloka_data=a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A32%3A%22659fd7bb302c65df35572e1aead23ab9%22%3Bs%3A6%3A%22userid%22%3Bi%3A1115763%3B%7D; toloka_sid=eb94ffb54a5602d7434b96142a237d8e; toloka___lastvisit=1706434614; toloka_ssl=1; toloka_1115763_tt=1706434615; toloka_1115763_f=a%3A0%3A%7B%7D; toloka_1115763_uf=1706380777; toloka_1115763_u=a%3A82%3A%7Bi%3A676357%3Bi%3A0%3Bi%3A676332%3Bi%3A0%3Bi%3A107950%3Bi%3A0%3Bi%3A676381%3Bi%3A0%3Bi%3A458%3Bi%3A0%3Bi%3A674999%3Bi%3A0%3Bi%3A116988%3Bi%3A0%3Bi%3A676210%3Bi%3A0%3Bi%3A667803%3Bi%3A0%3Bi%3A676007%3Bi%3A0%3Bi%3A676264%3Bi%3A0%3Bi%3A676382%3Bi%3A0%3Bi%3A675561%3Bi%3A0%3Bi%3A676383%3Bi%3A0%3Bi%3A97291%3Bi%3A0%3Bi%3A39313%3Bi%3A0%3Bi%3A663910%3Bi%3A0%3Bi%3A674723%3Bi%3A0%3Bi%3A672771%3Bi%3A0%3Bi%3A676232%3Bi%3A0%3Bi%3A675727%3Bi%3A0%3Bi%3A676371%3Bi%3A0%3Bi%3A674994%3Bi%3A0%3Bi%3A92852%3Bi%3A0%3Bi%3A675313%3Bi%3A0%3Bi%3A676378%3Bi%3A0%3Bi%3A92772%3Bi%3A0%3Bi%3A129589%3Bi%3A0%3Bi%3A676076%3Bi%3A0%3Bi%3A673157%3Bi%3A0%3Bi%3A675349%3Bi%3A0%3Bi%3A672102%3Bi%3A0%3Bi%3A676284%3Bi%3A0%3Bi%3A675712%3Bi%3A0%3Bi%3A117852%3Bi%3A0%3Bi%3A676380%3Bi%3A0%3Bi%3A673983%3Bi%3A0%3Bi%3A675384%3Bi%3A0%3Bi%3A676379%3Bi%3A0%3Bi%3A86524%3Bi%3A0%3Bi%3A676384%3Bi%3A0%3Bi%3A675862%3Bi%3A0%3Bi%3A676387%3Bi%3A0%3Bi%3A676352%3Bi%3A0%3Bi%3A676104%3Bi%3A0%3Bi%3A676388%3Bi%3A0%3Bi%3A675951%3Bi%3A0%3Bi%3A674534%3Bi%3A0%3Bi%3A676386%3Bi%3A0%3Bi%3A676247%3Bi%3A0%3Bi%3A675636%3Bi%3A0%3Bi%3A83515%3Bi%3A0%3Bi%3A106926%3Bi%3A0%3Bi%3A588949%3Bi%3A0%3Bi%3A664782%3Bi%3A0%3Bi%3A676319%3Bi%3A0%3Bi%3A676252%3Bi%3A0%3Bi%3A676369%3Bi%3A0%3Bi%3A105198%3Bi%3A0%3Bi%3A675905%3Bi%3A0%3Bi%3A676389%3Bi%3A0%3Bi%3A676385%3Bi%3A0%3Bi%3A662999%3Bi%3A0%3Bi%3A675811%3Bi%3A0%3Bi%3A673760%3Bi%3A0%3Bi%3A676151%3Bi%3A0%3Bi%3A77606%3Bi%3A0%3Bi%3A675985%3Bi%3A0%3Bi%3A443624%3Bi%3A0%3Bi%3A130409%3Bi%3A0%3Bi%3A675083%3Bi%3A0%3Bi%3A345993%3Bi%3A0%3Bi%3A675810%3Bi%3A0%3Bi%3A672565%3Bi%3A0%3Bi%3A675797%3Bi%3A0%3Bi%3A673770%3Bi%3A0%3Bi%3A674762%3Bi%3A0%3Bi%3A675812%3Bi%3A0%3Bi%3A6081%3Bi%3A0%3Bi%3A68197%3Bi%3A0%3Bi%3A675798%3Bi%3A0%3Bi%3A675525%3Bi%3A0%3B%7D"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

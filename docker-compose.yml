@@ -1,0 +1,36 @@
+version: '3.8'
+networks:
+  stemio_jackett_default:
+    external: true
+
+services:
+  addone:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    environment:
+      - JAKETT_URL=http://jackett:9117
+      - JAKETT_API_KEY=eg3o6a1m9eletyabvu2xanqa5hgbs3gm
+    networks:
+      - stemio_jackett_default
+
+  jackett:
+    image: lscr.io/linuxserver/jackett:latest
+    container_name: jackett
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - AUTO_UPDATE=true
+      - RUN_OPTS= #optional
+    volumes:
+      - ./jackett/data:/config
+      - ./jackett/blackhole:/downloads
+    networks:
+      - stemio_jackett_default
+    restart: unless-stopped
