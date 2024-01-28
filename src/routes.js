@@ -21,9 +21,9 @@ function respond(res, data) {
 
 routes.get("/:params/manifest.json", (req, res) => {
 	const manifest = {
-		id: "community.aymene69.jackett",
+		id: "community.mabab.jackett",
 		icon: "https://i.imgur.com/tVjqEJP.png",
-		version: "1.1.3",
+		version: "0.0.1",
 		catalogs: [],
 		resources: ["stream"],
 		types: ["movie", "series"],
